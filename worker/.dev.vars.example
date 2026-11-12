@@ -1,0 +1,15 @@
+# Strictly local development template for `wrangler dev`. NEVER commit real secrets or credentials.
+#
+# Option A (Recommended - Secure Local Setup):
+# Run `npm run setup:local` from the project root to generate a fresh random SESSION_SECRET
+# and ADMIN_SETUP_TOKEN into gitignored `worker/.dev.vars`, then create your fresh owner
+# credentials interactively at `/#/<your-private-admin-path>`.
+#
+# Option B (Manual static fallback / emergency recovery only - leave unset during setup):
+# ADMIN_USERNAME=replace-with-your-chosen-admin-id
+# ADMIN_PASSWORD_HASH=pbkdf2_sha256$100000$REPLACE_SALT$REPLACE_HASH
+SESSION_SECRET=replace-with-a-cryptographically-random-secret-key
+ADMIN_SETUP_TOKEN=replace-with-one-time-random-setup-token
+GITHUB_APP_ID=
+GITHUB_APP_INSTALLATION_ID=
+GITHUB_APP_PRIVATE_KEY=
