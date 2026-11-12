@@ -1,0 +1,20 @@
+{
+  "name": "nexusx-esports-admin-worker",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Cloudflare Worker backend for NexusX Esports India Web Admin Dashboard and minimum-permission GitHub App publishing.",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "vitest run --config vitest.config.ts",
+    "hash-password": "node scripts/hash-password.mjs"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^5.20261110.1",
+    "typescript": "^5.8.3",
+    "vitest": "^5.1.0",
+    "wrangler": "^4.160.0"
+  }
+}

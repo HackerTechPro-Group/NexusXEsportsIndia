@@ -1,0 +1,58 @@
+name = "nexusx-esports-admin-worker"
+main = "src/index.ts"
+compatibility_date = "2025-11-01"
+
+[vars]
+ENVIRONMENT = "production"
+GITHUB_OWNER = "HackerTechPro-Group"
+GITHUB_REPO = "NexusXEsportsIndia"
+GITHUB_BRANCH = "main"
+ALLOWED_GITHUB_OWNER = "HackerTechPro-Group"
+ALLOWED_GITHUB_REPO = "NexusXEsportsIndia"
+# Explicitly allowlisted frontend Origin(s), comma-separated without trailing slashes.
+# NOTE ON THIRD-PARTY COOKIES: Hosting the SPA on *.github.io while calling *.workers.dev uses
+# cross-site SameSite=None cookies, which Safari ITP / Firefox ETP / Chrome Incognito can block.
+# For full browser reliability, map a custom domain (e.g. https://nexusxesports.in for frontend +
+# https://nexusxesports.in/api/* or https://api.nexusxesports.in for the Worker) so both share one eTLD+1,
+# then update ALLOWED_ORIGINS (e.g. "https://nexusxesports.in,https://hackertechpro-group.github.io").
+ALLOWED_ORIGINS = "https://hackertechpro-group.github.io"
+
+# REQUIRED IN PRODUCTION (ENVIRONMENT = "production"):
+# Persistent KV Namespace for stateful session storage, logout revocation, and brute-force account/IP lockouts.
+# The Worker fails closed (HTTP 503) in production if SECURITY_KV (or REVOKED_SESSIONS_KV) is not bound.
+# Create with: `npx wrangler kv namespace create SECURITY_KV`
+[[kv_namespaces]]
+binding = "SECURITY_KV"
+id = "e96cc1a33b954fbc98f3c1991431009e"
+
+# Relational SQLite database via Cloudflare D1 for Players, Teams, BGMI Tournaments,
+# Registrations, Matches, Verified Results, Computed Leaderboards, RBAC Roles & Activity Logs.
+# Replace database_id with the UUID output from: `npx wrangler d1 create nexusx-esports-db`
+[[d1_databases]]
+binding = "DB"
+database_name = "nexusx-esports-db"
+database_id = "cafcae50-7c29-453f-8ffd-273f851cfc76"
+migrations_dir = "migrations"
+
+# OPTIONAL Cloudflare R2 Object Storage (only if you enable R2 in Cloudflare Dashboard with billing).
+# When omitted, uploaded CMS images automatically store in Cloudflare KV (100% Free Tier, NO credit card needed)
+# and stream cleanly via `/api/media/<key>`. Uncomment below only if enabling R2:
+# [[r2_buckets]]
+# binding = "MEDIA_BUCKET"
+# bucket_name = "nexusx-esports-media"
+
+# RECOMMENDED EDGE RATE LIMITING + WAF:
+# Configure a Cloudflare WAF Rate Limiting Rule in front of /api/auth/* AND optional unsafe binding:
+# [[unsafe.bindings]]
+# name = "RATE_LIMITER"
+# type = "ratelimit"
+# namespace_id = "1001"
+# simple = { limit = 20, period = 60 }
+
+# Required Cloudflare Secrets (configure via `npx wrangler secret put <NAME>`):
+# - SESSION_SECRET             (random 32+ char / 256-bit hex secret; rotate quarterly via `wrangler secret put`)
+# - ADMIN_SETUP_TOKEN          (recommended for one-time web Initial Owner Setup -> stored in SECURITY_KV; clear after setup or pair with CLOUDFLARE_ACCESS_OWNER_EMAIL)
+# - ADMIN_USERNAME / ADMIN_PASSWORD_HASH (optional recovery/bootstrap secrets via `node worker/scripts/hash-password.mjs`; KV `auth:owner` takes precedence once initialized)
+# - GITHUB_APP_ID              (numeric GitHub App ID)
+# - GITHUB_APP_INSTALLATION_ID (numeric Installation ID for ONLY the target repository)
+# - GITHUB_APP_PRIVATE_KEY     (PEM private key from GitHub App settings; rotate annually)

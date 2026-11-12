@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 2,
+  "lastUpdated": "2026-11-11",
+  "tournaments": [
+    {
+      "id": "NX-SOLO-001",
+      "slug": "solo-tournament",
+      "title": "NexusX Solo Vanguard Cup — S1",
+      "description": "High-intensity BGMI Solo competition designed to test individual positioning, gunplay, and late-zone decision making across India.",
+      "game": "BGMI",
+      "format": "Solo",
+      "mode": "TPP",
+      "map": "Erangel / Miramar",
+      "banner": "./images/solo-banner.jpg",
+      "thumbnail": "./images/solo-banner.jpg",
+      "matchesCount": 2,
+      "teamSize": "1 Player (Solo)",
+      "eligibleDevices": "Handset Mobile Smartphones Only (No Emulators / Tablets)",
+      "eligibility": [
+        "Valid Battlegrounds Mobile India (BGMI) account registered in India.",
+        "Mobile smartphone only — emulators, tablets, and external triggers are prohibited.",
+        "Players must compete using the exact IGN and Character ID submitted in the registration form."
+      ],
+      "registration": {
+        "status": "open",
+        "formUrl": "",
+        "buttonText": "Register Now",
+        "openingDate": "2026-11-12",
+        "closingDate": "2026-11-24",
+        "whatsappCommunityUrl": "",
+        "instructions": "Submit your BGMI IGN and Character ID accurately in the Google Form. Join the community channel for Room ID & Password updates."
+      },
+      "schedule": {
+        "date": "2026-11-28",
+        "reportingTime": "19:30",
+        "startTime": "20:00",
+        "timezone": "Asia/Kolkata"
+      },
+      "prizes": {
+        "entryFee": "Free Entry",
+        "totalPrizePool": "INR 5,000",
+        "first": "INR 2,500",
+        "second": "INR 1,500",
+        "third": "INR 1,000",
+        "other": "Details published on official results confirmation"
+      },
+      "rules": [
+        "Only mobile smartphones are permitted. Emulators, iPads, triggers, and unauthorized overlays are banned.",
+        "Players must check in by the published reporting time in IST.",
+        "Teaming in Solo lobbies results in immediate disqualification.",
+        "Screen recording (POV) may be requested by tournament administrators for verification."
+      ],
+      "status": "draft",
+      "published": false,
+      "featured": false
+    },
+    {
+      "id": "NX-SQUAD-001",
+      "slug": "squad-tournament",
+      "title": "NexusX India Squad Championship — S1",
+      "description": "Structured 4-player BGMI Squad tournament built for coordinated team rotations, disciplined IGL calls, and competitive Indian lobbies.",
+      "game": "BGMI",
+      "format": "Squad",
+      "mode": "TPP",
+      "map": "Erangel / Miramar / Sanhok",
+      "banner": "./images/squad-banner.jpg",
+      "thumbnail": "./images/squad-banner.jpg",
+      "matchesCount": 4,
+      "teamSize": "4 Main Players + Optional 1 Substitute",
+      "eligibleDevices": "Handset Mobile Smartphones Only (No Emulators / Tablets)",
+      "eligibility": [
+        "Complete squad roster submitted via the official Google Form prior to deadline.",
+        "All roster players must comply with mobile-only device rules.",
+        "No unverified stand-ins or ringers permitted after registration closes."
+      ],
+      "squadDetails": {
+        "teamRequirements": "Each squad must register a consistent team name, tag, and up to the configured roster limit.",
+        "captainRequirements": "Team captain acts as the primary point of contact for check-in, Room ID updates, and match screenshot reporting.",
+        "playerRequirements": "Every player must enter custom lobbies with the exact BGMI IGN and Character ID listed on the registration form."
+      },
+      "registration": {
+        "status": "open",
+        "formUrl": "",
+        "buttonText": "Register Now",
+        "openingDate": "2026-11-12",
+        "closingDate": "2026-11-26",
+        "whatsappCommunityUrl": "",
+        "instructions": "Team Captain should submit the complete squad details via the official Google Form and stay active in the WhatsApp community."
+      },
+      "schedule": {
+        "date": "2026-11-30",
+        "reportingTime": "18:30",
+        "startTime": "19:00",
+        "timezone": "Asia/Kolkata"
+      },
+      "prizes": {
+        "entryFee": "Free Entry",
+        "totalPrizePool": "INR 15,000",
+        "first": "INR 8,000",
+        "second": "INR 4,500",
+        "third": "INR 2,500",
+        "other": "Verified standings required prior to prize payout"
+      },
+      "rules": [
+        "All registered roster members must join the match room on time using their registered BGMI accounts.",
+        "Bug abuse, glitch exploitation, stream sniping, or third-party modifications result in immediate team disqualification.",
+        "Team captains must retain end-of-match scoreboard screenshots if requested by organizers.",
+        "Organizer decisions on match disputes and rule enforcement are final."
+      ],
+      "status": "draft",
+      "published": false,
+      "featured": false
+    }
+  ]
+}

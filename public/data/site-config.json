@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 2,
+  "lastUpdated": "2026-11-11",
+  "brandName": "NexusX Esports India",
+  "tagline": "COMPETE. CONNECT. CONQUER.",
+  "heroDescription": "A competitive BGMI community and structured tournament platform for Indian mobile players and squads. Transparent schedules, clear rules, and verified Google Forms registration.",
+  "tickerAnnouncement": "",
+  "whyJoin": [
+    {
+      "title": "Structured BGMI Competition",
+      "description": "Organized Solo and Squad brackets with clear reporting times, IST schedules, and transparent point scoring."
+    },
+    {
+      "title": "Fair-Play Focused",
+      "description": "Documented tournament rules, mobile-first eligibility standards, and zero tolerance for teaming or unauthorized tools."
+    },
+    {
+      "title": "Direct Google Forms Entry",
+      "description": "Fast, verifiable roster registration handled cleanly through official Google Forms without cluttered third-party signups."
+    },
+    {
+      "title": "Built For Rising Rosters",
+      "description": "Connecting emerging Indian BGMI talent across community lobbies, match results, and season leaderboards."
+    }
+  ],
+  "about": {
+    "heading": "Building A Disciplined BGMI Community In India",
+    "paragraphs": [
+      "NexusX Esports India is an independent competitive gaming community focused on Battlegrounds Mobile India (BGMI) tournaments across Solo and Squad formats.",
+      "Our goal is to provide players and rising teams with clear tournament schedules, transparent registration workflows, and straightforward rules so competitors can focus on gameplay."
+    ],
+    "pillars": [
+      {
+        "title": "Gaming Community",
+        "description": "A shared space for BGMI players, IGLs, and mobile squads across India to connect and compete."
+      },
+      {
+        "title": "Competitive Integrity",
+        "description": "Clear eligibility checks, honest result publishing, and consistent enforcement of published tournament rules."
+      },
+      {
+        "title": "Accessible Participation",
+        "description": "Simple registration through official Google Forms and timely match announcements via community channels."
+      }
+    ],
+    "vision": "To grow a reliable, transparent grassroots esports ecosystem where emerging Indian BGMI players can showcase skill and team coordination."
+  },
+  "community": {
+    "whatsappCommunityUrl": "https://chat.whatsapp.com/Bb5wB0uhUjL7M1Zvcze0bT?s=cl&p=a&iam=2",
+    "whatsappChannelUrl": "https://whatsapp.com/channel/0029VbBpaitADTOINkNfLn28",
+    "whatsappContactUrl": "",
+    "instagramUrl": "https://www.instagram.com/nexusxesportsindia/",
+    "youtubeUrl": "https://www.youtube.com/@NexusXEsportsIndia",
+    "discordUrl": "",
+    "contactEmail": ""
+  },
+  "termsSections": [
+    {
+      "id": "eligibility",
+      "title": "1. Registration Eligibility",
+      "content": "Participants must satisfy the minimum account, region, and device requirements listed on the specific tournament page and submit accurate information through the official Google Form before the registration deadline."
+    },
+    {
+      "id": "participation",
+      "title": "2. Tournament Participation & Reporting",
+      "content": "Registered players and squad captains must adhere to the published reporting time and match start time (IST). Late check-ins may forfeit lobby slots at organizer discretion."
+    },
+    {
+      "id": "fair-play",
+      "title": "3. Fair Play, Cheating & Teaming Restrictions",
+      "content": "Cheating, modified game clients, third-party scripts, stream sniping, bug exploitation, and teaming with rival players or squads are strictly prohibited."
+    },
+    {
+      "id": "devices",
+      "title": "4. Emulator & Device Restrictions",
+      "content": "Each tournament page specifies eligible devices. Unless explicitly stated otherwise for a special event, unauthorized emulators or restricted hardware peripherals are not permitted."
+    },
+    {
+      "id": "verification",
+      "title": "5. Match Reporting & Result Verification",
+      "content": "Players or captains may be asked to submit post-match scoreboards or screen recordings for verification prior to final standings approval."
+    },
+    {
+      "id": "prizes",
+      "title": "6. Prize Distribution",
+      "content": "Where prizes are configured for an event, payouts are issued only after final result verification and confirmation of valid recipient details."
+    },
+    {
+      "id": "disqualification",
+      "title": "7. Disqualification & Organizer Decisions",
+      "content": "Violation of tournament rules or unsportsmanlike conduct may result in disqualification. NexusX Esports India reserves the right to amend rules for operational clarity; decisions made by tournament administration are final."
+    }
+  ]
+}
