@@ -1,0 +1,123 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: 'Chakra Petch', 'Inter', system-ui, sans-serif;
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, monospace;
+
+  --color-obsidian: #050709;
+  --color-panel: #0A0F12;
+  --color-panel-elevated: #0F171A;
+  --color-crimson: #22C55E;
+  --color-crimson-bright: #16FF6E;
+  --color-neon: #22C55E;
+  --color-neon-bright: #16FF6E;
+  --color-emerald-glow: #10B981;
+  --color-steel: #94A3B8;
+  --color-silver: #CBD5E1;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    background-color: #050709;
+    color: #F8FAFC;
+    font-family: var(--font-sans);
+  }
+
+  h1, h2, h3, h4, .font-display {
+    font-family: var(--font-display);
+  }
+
+  .font-mono {
+    font-family: var(--font-mono);
+  }
+}
+
+/* Atmospheric obsidian + tactical emerald mesh background */
+.bg-tactical-grid {
+  background-color: #050709;
+  background-image:
+    radial-gradient(circle at 18% 0%, rgba(34, 197, 94, 0.08), transparent 42%),
+    radial-gradient(circle at 84% 12%, rgba(16, 185, 129, 0.06), transparent 36%),
+    linear-gradient(to right, rgba(34, 197, 94, 0.035) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(34, 197, 94, 0.035) 1px, transparent 1px);
+  background-size: auto, auto, 44px 44px, 44px 44px;
+}
+
+/* Premium glassmorphic surface cards */
+.nx-glass {
+  background: linear-gradient(155deg, rgba(14, 21, 24, 0.88) 0%, rgba(8, 12, 14, 0.92) 100%);
+  backdrop-filter: blur(14px);
+  border: 1px solid rgba(34, 197, 94, 0.16);
+  box-shadow: 0 18px 40px -24px rgba(0, 0, 0, 0.9);
+}
+
+.nx-glass-hover {
+  transition: transform 200ms ease, border-color 200ms ease, box-shadow 200ms ease;
+}
+
+.nx-glass-hover:hover {
+  transform: translateY(-2px);
+  border-color: rgba(34, 197, 94, 0.45);
+  box-shadow: 0 22px 46px -22px rgba(34, 197, 94, 0.25);
+}
+
+.nx-btn-neon {
+  background: linear-gradient(135deg, #22C55E 0%, #16A34A 100%);
+  color: #031107;
+  box-shadow: 0 0 24px -6px rgba(34, 197, 94, 0.65);
+  transition: all 180ms ease;
+}
+
+.nx-btn-neon:hover {
+  background: linear-gradient(135deg, #4ADE80 0%, #22C55E 100%);
+  box-shadow: 0 0 30px -4px rgba(22, 255, 110, 0.72);
+}
+
+/* Signature subtle corner chamfer for primary esports CTAs and badges */
+.clip-chamfer {
+  clip-path: polygon(0 0, calc(100% - 10px) 0, 100% 10px, 100% 100%, 10px 100%, 0 calc(100% - 10px));
+}
+
+.clip-chamfer-sm {
+  clip-path: polygon(0 0, calc(100% - 7px) 0, 100% 7px, 100% 100%, 7px 100%, 0 calc(100% - 7px));
+}
+
+/* Custom sleek dark scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #050709;
+}
+::-webkit-scrollbar-thumb {
+  background: #1B2823;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #22C55E;
+}
+
+/* Override browser password-manager autofill white background */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 1000px #06090B inset !important;
+  -webkit-text-fill-color: #f8fafc !important;
+  caret-color: #f8fafc !important;
+  border-color: rgba(34, 197, 94, 0.35) !important;
+  transition: background-color 9999s ease-in-out 0s;
+}
+
+.nx-light input:-webkit-autofill,
+.nx-light input:-webkit-autofill:hover,
+.nx-light input:-webkit-autofill:focus {
+  -webkit-box-shadow: 0 0 0 1000px #f8fafc inset !important;
+  -webkit-text-fill-color: #0f172a !important;
+  caret-color: #0f172a !important;
+}
