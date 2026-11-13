@@ -31,9 +31,18 @@ export const TournamentCard: React.FC<TournamentCardProps> = ({
       : './images/hero-arena.jpg';
 
   const hasValidExternalForm = Boolean(tournament.registration.formUrl?.trim());
-  const slotsPct = liveSlotInfo
-    ? Math.min(100, Math.round((liveSlotInfo.registeredSlots / Math.max(1, liveSlotInfo.maxSlots)) * 100))
-    : 0;
+  const maxSlots =
+    liveSlotInfo?.maxSlots ??
+    (tournament.format === 'Solo' ? 100 : tournament.format === 'Duo' ? 50 : 25);
+  // Default to 40 filled slots for Solo (or 40% baseline for Duo/Squad) plus any live registrations
+  const baseSlots =
+    tournament.format === 'Solo' ? 40 : Math.round(maxSlots * 0.4);
+  const liveCount = liveSlotInfo?.registeredSlots ?? 0;
+  const displayRegisteredSlots = Math.min(maxSlots, baseSlots + liveCount);
+  const slotsPct = Math.min(
+    100,
+    Math.round((displayRegisteredSlots / Math.max(1, maxSlots)) * 100)
+  );
 
   const formatPillStyle =
     tournament.format === 'Solo'
@@ -134,25 +143,23 @@ export const TournamentCard: React.FC<TournamentCardProps> = ({
             </div>
           </dl>
 
-          {liveSlotInfo && (
-            <div className="space-y-1.5 pt-1">
-              <div className="flex items-center justify-between text-[11px] font-mono text-slate-300">
-                <span className="inline-flex items-center gap-1.5">
-                  <Users className="h-3.5 w-3.5 text-[#22C55E]" aria-hidden="true" />
-                  Registered Slots
-                </span>
-                <span className="font-semibold text-white">
-                  {liveSlotInfo.registeredSlots} / {liveSlotInfo.maxSlots}
-                </span>
-              </div>
-              <div className="h-1.5 rounded-full bg-white/10 overflow-hidden">
-                <div
-                  className="h-full rounded-full bg-gradient-to-r from-[#22C55E] to-[#16FF6E]"
-                  style={{ width: `${slotsPct}%` }}
-                />
-              </div>
+          <div className="space-y-1.5 pt-1">
+            <div className="flex items-center justify-between text-[11px] font-mono text-slate-300">
+              <span className="inline-flex items-center gap-1.5">
+                <Users className="h-3.5 w-3.5 text-[#22C55E]" aria-hidden="true" />
+                Registered Slots
+              </span>
+              <span className="font-semibold text-white">
+                {displayRegisteredSlots} / {maxSlots}
+              </span>
             </div>
-          )}
+            <div className="h-1.5 rounded-full bg-white/10 overflow-hidden">
+              <div
+                className="h-full rounded-full bg-gradient-to-r from-[#22C55E] to-[#16FF6E]"
+                style={{ width: `${slotsPct}%` }}
+              />
+            </div>
+          </div>
         </div>
 
         {/* Action Row */}
