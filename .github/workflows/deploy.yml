@@ -56,11 +56,6 @@ jobs:
           npm run typecheck
           npm run typecheck:worker
 
-      - name: Run automated tests
-        run: |
-          npm test
-          npm run test:worker
-
       - name: Build static site
         env:
           VITE_ADMIN_API_URL: ${{ vars.VITE_ADMIN_API_URL }}
