@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "lastUpdated": "2026-11-11",
+  "lastUpdated": "2026-11-13",
   "tournaments": [
     {
       "id": "NX-SOLO-001",
@@ -110,6 +110,53 @@
       "status": "draft",
       "published": false,
       "featured": false
+    },
+    {
+      "id": "NX-SOLO-002",
+      "slug": "solo-clutcher",
+      "title": "SOLO CLUTCHER",
+      "game": "BGMI",
+      "format": "Solo",
+      "mode": "TPP",
+      "season": "",
+      "matchFormat": "",
+      "map": "Erangel",
+      "banner": "./images/solo-banner.jpg",
+      "thumbnail": "./images/solo-banner.jpg",
+      "description": "Welcome to the NexusX Esports India - SOLO CLUTCHER Showdown! Register for free, showcase your solo survival skills, and win instant cash prizes.\n\n🏆 PRIZE POOL BREAKDOWN (Total ₹100):\n• 1st Place: ₹50\n• 2nd Place: ₹30\n• 3rd Place: ₹20\n\n⚠️ TOURNAMENT RULES:\n• Mobile Devices Only (Emulators & iPads are strictly banned).\n• Minimum BGMI Account Level: 30+.\n• Zero tolerance for hacking, GFX tools, or teaming up in Solo mode.\n• Room ID & Password will be shared 10 minutes before the match on our official WhatsApp Group & Discord Server.\n• Top 3 winners must submit their match result screenshot to claim prizes.",
+      "matchesCount": 1,
+      "teamSize": "1 Player (Solo)",
+      "eligibleDevices": "Mobile Smartphones Only (Android / iOS)",
+      "status": "registration_open",
+      "published": true,
+      "featured": true,
+      "schedule": {
+        "date": "2026-12-01",
+        "reportingTime": "",
+        "startTime": "8PM",
+        "timezone": "Asia/Kolkata"
+      },
+      "prizes": {
+        "entryFee": "Free Entry",
+        "totalPrizePool": "200",
+        "first": "",
+        "second": "",
+        "third": "",
+        "other": ""
+      },
+      "registration": {
+        "status": "open",
+        "formUrl": "https://forms.gle/vt1b9JoAmJwti9ii8",
+        "buttonText": "Register Now",
+        "closingMessage": "",
+        "openingDate": "",
+        "closingDate": "",
+        "whatsappCommunityUrl": "",
+        "instructions": "",
+        "additionalInstructions": ""
+      },
+      "rules": [],
+      "eligibility": []
     }
   ]
 }
