@@ -18,7 +18,7 @@
       "matchesCount": 1,
       "teamSize": "1 Player (Solo)",
       "eligibleDevices": "Mobile Smartphones Only (Android / iOS)",
-      "status": "registration_open",
+      "status": "live",
       "published": true,
       "featured": true,
       "schedule": {
@@ -36,7 +36,7 @@
         "other": ""
       },
       "registration": {
-        "status": "closed",
+        "status": "open",
         "formUrl": "https://forms.gle/vt1b9JoAmJwti9ii8",
         "buttonText": "Register Now",
         "closingMessage": "",
