@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "lastUpdated": "2026-11-13",
+  "lastUpdated": "2026-11-14",
   "tournaments": [
     {
       "id": "NX-SOLO-002",
@@ -65,9 +65,9 @@
       "matchesCount": 1,
       "teamSize": "4 Players + Optional 1 Sub",
       "eligibleDevices": "Mobile Smartphones Only (Android / iOS)",
-      "status": "upcoming",
-      "published": true,
-      "featured": true,
+      "status": "draft",
+      "published": false,
+      "featured": false,
       "schedule": {
         "date": "",
         "reportingTime": "",
