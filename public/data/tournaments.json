@@ -61,13 +61,13 @@
       "map": "Erangel / Miramar / Rondo",
       "banner": "./images/map-erangel.jpg",
       "thumbnail": "./images/map-erangel.jpg",
-      "description": "Welcome to NEXUSX ESPORTS INDIA — SEASON 2!\n\n🔥 PLAY AT JUST ₹10 PER MATCH! 🔥\n(Say NO to time-pass free lobbies. Play with SERIOUS competitors only!)\n\n🏆 Format: Solo TPP | PAID Entry | 5-Day VIP Pass\n🗺️ Maps: Erangel, Miramar, Rondo\n💰 TOTAL PRIZE POOL: ₹500 (Daily ₹100 Prize!)\n\n🏆 Daily Match Prizes:\n🥇 1st Place: ₹50\n🥈 2nd Place: ₹30\n🥉 3rd Place: ₹20\n⭐ Season MVP (Overall Top Points): NEXT SEASON FREE SLOT!\n\n🎟️ ENTRY FEE: VIP Season Pass at just ₹50/- (For All 5 Matches)\n*Yes, that's just ₹10 per match for a premium, hacker-free competitive experience! Recover your full fee by coming in the Top 3 just once!*\n\nNote: Registration requires a mandatory ₹50 UPI payment and verification. Fake payments will lead to a permanent ban.",
+      "description": "Welcome to NEXUSX ESPORTS INDIA — SEASON 2!\n\n🔥 PLAY AT JUST ₹10 PER MATCH! 🔥\n(Say NO to time-pass free lobbies. Play with SERIOUS competitors only!)\n\n🏆 Format: Solo TPP | PAID Entry\n🗺️ Maps: Erangel, Miramar, Rondo\n⏰ Time: 8:00 PM IST Daily\n💰 TOTAL PRIZE POOL: ₹500 (Daily ₹100 Prize!)\n\n🏆 Daily Match Prizes:\n🥇 1st Place: ₹50\n🥈 2nd Place: ₹30\n🥉 3rd Place: ₹20\n⭐ Season MVP (Overall Top Points): 🎟️ NEXT SEASON FREE SLOT!\n\n🎟️ ENTRY FEE: Just ₹10 Per Match!\n📌 How It Works: Fill the official registration form once and pay ₹10 for Day 1. For subsequent matches (Day 2 to Day 5), simply send ₹10 via UPI on WhatsApp for daily slot verification. Room ID & Password are sent via Email at 7:45 PM IST to verified paid players only.\n\n⚠️ Note: Submitting fake payment screenshots or invalid UTR numbers will result in a permanent ban.",
       "matchesCount": 1,
       "teamSize": "1 Player (Solo)",
       "eligibleDevices": "Mobile Smartphones Only (Android / iOS)",
-      "status": "draft",
-      "published": false,
-      "featured": false,
+      "status": "registration_open",
+      "published": true,
+      "featured": true,
       "schedule": {
         "date": "2026-12-01",
         "reportingTime": "",
@@ -75,7 +75,7 @@
         "timezone": "Asia/Kolkata"
       },
       "prizes": {
-        "entryFee": "50",
+        "entryFee": "10",
         "totalPrizePool": "500",
         "first": "",
         "second": "",
@@ -84,7 +84,7 @@
       },
       "registration": {
         "status": "open",
-        "formUrl": "https://forms.gle/9LPvwtjcsDSB9W4M8",
+        "formUrl": "https://forms.gle/Cv5SxkSDasd8EE7X7",
         "buttonText": "Register Now",
         "closingMessage": "",
         "openingDate": "",
