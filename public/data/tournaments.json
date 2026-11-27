@@ -113,7 +113,7 @@
       "teamSize": "1V1 – SOLO",
       "eligibleDevices": "Mobile Smartphones Only (Android / iOS)",
       "status": "registration_open",
-      "published": false,
+      "published": true,
       "featured": false,
       "schedule": {
         "date": "",
