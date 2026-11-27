@@ -159,6 +159,69 @@
         "Participants must be available at the confirmed match time.",
         "Participants must follow all official tournament rules."
       ]
+    },
+    {
+      "id": "NX-DUO-001",
+      "slug": "nexusx-arena-clash-duo-2v2",
+      "title": "NEXUSX ARENA CLASH – DUO 2V2",
+      "game": "BGMI",
+      "format": "Duo",
+      "mode": "TPP",
+      "season": "NEXUSX ARENA CLASH – SEASON 1",
+      "matchFormat": "Best of 3",
+      "map": "TDM Warehouse",
+      "banner": "./images/duo-banner.jpg",
+      "thumbnail": "./images/duo-banner.jpg",
+      "description": "NEXUSX ARENA CLASH – DUO 2V2\n\nFIGHT TOGETHER. WIN TOGETHER.\n\nWelcome to NEXUSX ARENA CLASH – DUO 2V2, where teamwork meets competition!\n\nGet ready to enter the arena with your partner and experience an exciting BGMI competitive environment. This tournament is designed for players who enjoy teamwork, coordination, smart strategies, and intense head-to-head competition.\n\nBuild your duo, prepare your game plan, and bring your best performance to the battlefield.\n\nTHE DUO CHALLENGE\n\nEvery team has an opportunity to showcase its coordination, communication, and competitive spirit. Work together, support your teammate, and make every round count.\n\nYOUR MOMENT TO COMPETE\n\nWhether you are an experienced player or an ambitious competitor, this is your opportunity to represent your duo and make your mark in the NEXUSX Arena.\n\nStay connected with official NEXUSX ESPORTS INDIA announcements for tournament updates.\n\nBRING YOUR PARTNER. ENTER THE ARENA. MAKE YOUR MARK.\n\nNEXUSX ESPORTS INDIA\n\nPLAY. COMPETE. DOMINATE.",
+      "matchesCount": 3,
+      "teamSize": "2V2 – DUO",
+      "eligibleDevices": "Mobile Smartphones Only (Android / iOS)",
+      "status": "registration_open",
+      "published": true,
+      "featured": false,
+      "schedule": {
+        "date": "",
+        "reportingTime": "To Be Announced",
+        "startTime": "",
+        "timezone": "Asia/Kolkata"
+      },
+      "prizes": {
+        "entryFee": "₹50",
+        "totalPrizePool": "₹200",
+        "first": "",
+        "second": "",
+        "third": "",
+        "other": ""
+      },
+      "registration": {
+        "status": "open",
+        "formUrl": "https://forms.gle/aiaVit4vrbSCDH8z9",
+        "buttonText": "Register Now",
+        "closingMessage": "",
+        "openingDate": "",
+        "closingDate": "",
+        "whatsappCommunityUrl": "",
+        "instructions": "Register your two-player team using the official DUO registration form. Enter accurate Team Name, BGMI IGN, UID, and captain contact details. Both players must use their registered BGMI accounts.",
+        "additionalInstructions": "Both teammates must participate using their registered accounts and follow the selected weapon restriction. Keep the captain's WhatsApp number active for official updates. Join at the confirmed reporting time and follow all organizer instructions."
+      },
+      "rules": [
+        "All matches will be played in BGMI TDM – Warehouse.",
+        "Each team must consist of two registered players.",
+        "Every match follows the Best of 3 format.",
+        "The first team to win two rounds wins the match.",
+        "Both teammates must use the same registered weapon.",
+        "Weapon switching is strictly prohibited.",
+        "Cheating, glitches, exploits, and unfair gameplay are prohibited.",
+        "Players must use their registered BGMI accounts.",
+        "1. Match disputes must be reported with valid evidence to the organizer."
+      ],
+      "eligibility": [
+        "Participants must have valid BGMI accounts.",
+        "Both players must provide correct IGN and UID.",
+        "Each team must have exactly two registered players.",
+        "Both players must be available at the confirmed match time.",
+        "1. All participants must agree to follow official tournament rules."
+      ]
     }
   ]
 }
