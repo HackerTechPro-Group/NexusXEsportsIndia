@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "lastUpdated": "2026-11-24",
+  "lastUpdated": "2026-11-27",
   "tournaments": [
     {
       "id": "NX-SOLO-002",
@@ -95,6 +95,70 @@
       },
       "rules": [],
       "eligibility": []
+    },
+    {
+      "id": "NX-SOLO-004",
+      "slug": "nexusx-arena-clash-solo-1v1",
+      "title": "NEXUSX ARENA CLASH – SOLO 1V1",
+      "game": "BGMI",
+      "format": "Solo",
+      "mode": "TPP",
+      "season": "NEXUSX ARENA CLASH – SEASON 1",
+      "matchFormat": "Best of 3",
+      "map": "TDM Warehouse",
+      "banner": "./images/solo-banner.jpg",
+      "thumbnail": "./images/solo-banner.jpg",
+      "description": "NEXUSX ARENA CLASH – SOLO 1V1\n\nENTER THE ARENA. PROVE YOUR SKILLS. DOMINATE!\n\nTOURNAMENT INFORMATION\n\nGame: BGMI\n\nGame Mode: Team Deathmatch (TDM)\n\nMap: Warehouse\n\nPerspective: TPP\n\nFormat: SOLO 1V1\n\nMatch Format: Best of 3\n\nMaximum Rounds: 3\n\nMATCH SYSTEM\n\nTwo players compete against each other.\n\nFirst player to win 2 rounds wins the match.\n\nThird round is played only when the score is 1–1.\n\nWEAPON RULE\n\nEach player must use their selected weapon throughout the match.\n\nWeapon switching is prohibited.\n\nIMPORTANT INFORMATION\n\nUse your registered BGMI account.\n\nJoin at the officially confirmed reporting time.\n\nDo not share room credentials with unauthorized players.\n\nGlitches, exploits and unfair gameplay are prohibited.\n\nRule violations may result in disqualification.\n\nREGISTRATION\n\nUse the official SOLO 1V1 registration form.\n\nNEXUSX ESPORTS INDIA\nPLAY. COMPETE. DOMINATE.",
+      "matchesCount": 3,
+      "teamSize": "1V1 – SOLO",
+      "eligibleDevices": "Mobile Smartphones Only (Android / iOS)",
+      "status": "registration_open",
+      "published": false,
+      "featured": false,
+      "schedule": {
+        "date": "",
+        "reportingTime": "To Be Announced",
+        "startTime": "",
+        "timezone": "Asia/Kolkata"
+      },
+      "prizes": {
+        "entryFee": "50",
+        "totalPrizePool": "100",
+        "first": "",
+        "second": "",
+        "third": "",
+        "other": ""
+      },
+      "registration": {
+        "status": "open",
+        "formUrl": "https://forms.gle/NhTYNt49yFk22buo6",
+        "buttonText": "Register Now",
+        "closingMessage": "",
+        "openingDate": "",
+        "closingDate": "",
+        "whatsappCommunityUrl": "",
+        "instructions": "Complete the official SOLO 1V1 registration form with your correct BGMI IGN, UID and active contact details.  Ensure that all submitted information is accurate.",
+        "additionalInstructions": "1. Use only your registered BGMI account. 2. Join at the confirmed reporting time. 3. Keep your registered contact number active for official updates. 4. Follow the selected weapon rule throughout the match. 5. Follow all official tournament instructions."
+      },
+      "rules": [
+        "All matches will be played in BGMI TDM – Warehouse.",
+        "Every match follows the Best of 3 format.",
+        "The first player to win 2 rounds wins the match.",
+        "The third round is played only when the score is 1–1.",
+        "Players must use their selected weapon throughout the match.",
+        "Weapon switching is strictly prohibited.",
+        "Glitches, exploits and unfair gameplay are prohibited.",
+        "Players must use their registered BGMI accounts.",
+        "Room ID and password must not be shared with unauthorized players.",
+        "Players must follow official match instructions."
+      ],
+      "eligibility": [
+        "Participants must have a valid BGMI account.",
+        "Participants must provide their correct BGMI IGN and UID.",
+        "Each registration is for one individual player.",
+        "Participants must be available at the confirmed match time.",
+        "Participants must follow all official tournament rules."
+      ]
     }
   ]
 }
