@@ -112,8 +112,8 @@
       "matchesCount": 3,
       "teamSize": "1V1 – SOLO",
       "eligibleDevices": "Mobile Smartphones Only (Android / iOS)",
-      "status": "registration_open",
-      "published": true,
+      "status": "draft",
+      "published": false,
       "featured": false,
       "schedule": {
         "date": "",
@@ -176,8 +176,8 @@
       "matchesCount": 3,
       "teamSize": "2V2 – DUO",
       "eligibleDevices": "Mobile Smartphones Only (Android / iOS)",
-      "status": "registration_open",
-      "published": true,
+      "status": "draft",
+      "published": false,
       "featured": false,
       "schedule": {
         "date": "",
