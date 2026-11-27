@@ -223,6 +223,71 @@
         "Both players must be available at the confirmed match time.",
         "1. All participants must agree to follow official tournament rules."
       ]
+    },
+    {
+      "id": "NX-SQUAD-001",
+      "slug": "nexusx-arena-clash-squad-4v4",
+      "title": "NEXUSX ARENA CLASH – SQUAD 4V4",
+      "game": "BGMI",
+      "format": "Squad",
+      "mode": "TPP",
+      "season": "NEXUSX ARENA CLASH – SEASON 1",
+      "matchFormat": "Best of 3",
+      "map": "TDM Warehouse",
+      "banner": "./images/squad-banner.jpg",
+      "thumbnail": "./images/squad-banner.jpg",
+      "description": "Welcome to NEXUSX ARENA CLASH – SQUAD 4V4, an intense BGMI TDM Warehouse showdown where teamwork, coordination, and strategy decide the champions.\n\nTOURNAMENT OVERVIEW\n\nGame & Mode: BGMI – TDM Warehouse (TPP)\n\nFormat: Squad 4V4 | Best of 3 (Max 3 Rounds)\n\nEntry Fee: ₹200 Per Team\n\nWinning Prize: ₹400\n\nNote: All four teammates must use the same selected weapon throughout the match (weapon switching is prohibited).\n\nMatch schedule and Room ID/Password will be shared with registered captains via official NEXUSX ESPORTS INDIA channels.\n\nPLAY. COMPETE. DOMINATE.",
+      "matchesCount": 3,
+      "teamSize": "4V4 – SQUAD",
+      "eligibleDevices": "Mobile Smartphones Only (Android / iOS)",
+      "status": "registration_open",
+      "published": true,
+      "featured": false,
+      "schedule": {
+        "date": "",
+        "reportingTime": "To Be Announced",
+        "startTime": "To Be Announced",
+        "timezone": "Asia/Kolkata"
+      },
+      "prizes": {
+        "entryFee": "50",
+        "totalPrizePool": "400",
+        "first": "",
+        "second": "",
+        "third": "",
+        "other": ""
+      },
+      "registration": {
+        "status": "open",
+        "formUrl": "https://forms.gle/tgWaHB9KJY1Ue1EV9",
+        "buttonText": "Register Now",
+        "closingMessage": "",
+        "openingDate": "",
+        "closingDate": "",
+        "whatsappCommunityUrl": "",
+        "instructions": "Register your four-player squad using the official Squad Registration Form.  Submit the correct Team Name, Captain BGMI IGN, BGMI UID and contact details for all four players.  All players must use their registered BGMI accounts and follow the official tournament rules.",
+        "additionalInstructions": "All four registered teammates must participate using their registered BGMI accounts.  The entire team must follow the selected weapon restriction. Keep the captain's registered WhatsApp number active for official announcements.  Join the match at the confirmed reporting time. Do not share room credentials with unauthorized players."
+      },
+      "rules": [
+        "All matches will be played in BGMI TDM – Warehouse.",
+        "Each team must consist of exactly four registered players.",
+        "Every player must use their registered BGMI account.",
+        "All four teammates must use the same selected weapon.",
+        "Weapon switching is prohibited.",
+        "Cheating, glitches and exploits are prohibited.",
+        "All players must join at the confirmed reporting time.",
+        "Room ID and Password must not be shared with unauthorized players.",
+        "Rule violations may result in disqualification after review.",
+        "Disputes must be reported with valid evidence.",
+        "1. The organizer's decision after reviewing evidence will be final."
+      ],
+      "eligibility": [
+        "Every participant must have a valid BGMI account.",
+        "Each squad must contain exactly four registered players.",
+        "All four players must submit correct IGN and UID.",
+        "All team members must be available at the confirmed match time.",
+        "1. All participants must agree to follow the official tournament rules."
+      ]
     }
   ]
 }
