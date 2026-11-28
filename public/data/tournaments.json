@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "lastUpdated": "2026-11-27",
+  "lastUpdated": "2026-11-28",
   "tournaments": [
     {
       "id": "NX-SOLO-002",
@@ -18,7 +18,7 @@
       "matchesCount": 1,
       "teamSize": "1 Player (Solo)",
       "eligibleDevices": "Mobile Smartphones Only (Android / iOS)",
-      "status": "live",
+      "status": "registration_closed",
       "published": true,
       "featured": true,
       "schedule": {
@@ -36,7 +36,7 @@
         "other": ""
       },
       "registration": {
-        "status": "open",
+        "status": "closed",
         "formUrl": "https://forms.gle/vt1b9JoAmJwti9ii8",
         "buttonText": "Register Now",
         "closingMessage": "",
