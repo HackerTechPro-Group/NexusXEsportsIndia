@@ -18,11 +18,11 @@
       "matchesCount": 1,
       "teamSize": "1 Player (Solo)",
       "eligibleDevices": "Mobile Smartphones Only (Android / iOS)",
-      "status": "registration_closed",
+      "status": "registration_open",
       "published": true,
-      "featured": true,
+      "featured": false,
       "schedule": {
-        "date": "2026-12-01",
+        "date": "2026-12-10",
         "reportingTime": "",
         "startTime": "8PM",
         "timezone": "Asia/Kolkata"
@@ -36,7 +36,7 @@
         "other": ""
       },
       "registration": {
-        "status": "closed",
+        "status": "open",
         "formUrl": "https://forms.gle/vt1b9JoAmJwti9ii8",
         "buttonText": "Register Now",
         "closingMessage": "",
